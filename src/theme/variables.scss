@@ -3,7 +3,8 @@
 
 // Font path is used to include ionicons,
 // roboto, and noto sans fonts
-$font-path: "../assets/fonts";
+$font-path: "../assets/fonts" !default;
+
 
 
 // The app direction is used to include
@@ -34,12 +35,14 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #4068ce,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  energy:      #254
 );
+$toolbar-background: color($colors, primary);
 
 
 // App iOS Variables
